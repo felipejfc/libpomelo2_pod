@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'libpomelo2_Example' do
+  pod 'libpomelo2', :path => '../'
+
+  target 'libpomelo2_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
