@@ -1,15 +1,12 @@
 # libpomelo2
 
-[![CI Status](http://img.shields.io/travis/Felipe Cavalcanti/libpomelo2.svg?style=flat)](https://travis-ci.org/Felipe Cavalcanti/libpomelo2)
-[![Version](https://img.shields.io/cocoapods/v/libpomelo2.svg?style=flat)](http://cocoapods.org/pods/libpomelo2)
-[![License](https://img.shields.io/cocoapods/l/libpomelo2.svg?style=flat)](http://cocoapods.org/pods/libpomelo2)
-[![Platform](https://img.shields.io/cocoapods/p/libpomelo2.svg?style=flat)](http://cocoapods.org/pods/libpomelo2)
-
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+
+This podspec is incompatible with cocoapods "!use frameworks" flag, turn it off or you will not be able to "pod install".
 
 ## Installation
 
@@ -22,7 +19,7 @@ pod "libpomelo2"
 
 ## Author
 
-Felipe Cavalcanti, felipe.cavalcanti@tfgco.com
+Felipe Cavalcanti, fjfcavalcanti@gmail.com
 
 ## License
 
