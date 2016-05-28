@@ -1,0 +1,1242 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0157E5DBAA7223084C52E3FECC2FBD91 /* tr_uv_tcp.h in Headers */ = {isa = PBXBuildFile; fileRef = F6E0ABBCD3E21F6F823C27C262A4333A /* tr_uv_tcp.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		08901991E05AF9D77068AAA46CBF332D /* pb.h in Headers */ = {isa = PBXBuildFile; fileRef = 39E9C63EC2E34F9E369C328449043D25 /* pb.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		08DF775CA350BC6840C4FDDC6B6921F6 /* stream.c in Sources */ = {isa = PBXBuildFile; fileRef = 65E2387069B7EBE49AE330A12A40942B /* stream.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		0A12EDD48C28AF7856767C137E55B812 /* pc_pomelo.c in Sources */ = {isa = PBXBuildFile; fileRef = 82B2D984EB2968485D75689D786DD7C1 /* pc_pomelo.c */; };
+		0B4EEE814467389F5047375E02A15E24 /* udp.c in Sources */ = {isa = PBXBuildFile; fileRef = 1E22E5338B43D42B429DEE537BC9BC28 /* udp.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		0BE5643F1452CCC72160F34CD8BA71B7 /* inet.c in Sources */ = {isa = PBXBuildFile; fileRef = 5FDEB5D715AAC2314E0460BA8A248972 /* inet.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		0CFE1DCB1E7B8EBDD5EC0EB3E21EE79F /* tr_dummy.c in Sources */ = {isa = PBXBuildFile; fileRef = 94358885DD87E0A8B349742206209C18 /* tr_dummy.c */; };
+		0E020AA44ECDC90FDFBFE83F53E71495 /* uv-common.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A5E2EEF844F36A9BD59B821AAB2D171 /* uv-common.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1212ABF876DEFB24BF852AFECA5E18C3 /* process.c in Sources */ = {isa = PBXBuildFile; fileRef = ECFCD7847920D0F561B750148CEBC813 /* process.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		136CE56BAA7381EF304C6C4D770E6996 /* pr_pkg.c in Sources */ = {isa = PBXBuildFile; fileRef = F7693C8AE08040D96D05F65EBECF0772 /* pr_pkg.c */; };
+		1CEF7F31DD7F56F0EF5156C92B6BE02A /* version.c in Sources */ = {isa = PBXBuildFile; fileRef = B5625B970B62DB46AAA73635B6695699 /* version.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		21595F9F807A797206E4C426248E56AF /* pr_pkg.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E22B687C8FA2A75A424BA30DF867ADF /* pr_pkg.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26A59BE463479D9F7FB38B79BF916A0F /* getaddrinfo.c in Sources */ = {isa = PBXBuildFile; fileRef = B11D3206FC69A243A7DFEA4950A44C5A /* getaddrinfo.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		34315892953853695B78ADAA6D9C2E86 /* pc_JSON.c in Sources */ = {isa = PBXBuildFile; fileRef = D68C76B64ED29F5429CDEC9E70A30956 /* pc_JSON.c */; };
+		384F23D20AEEF92712FA933BF18CAE6D /* queue.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F737BE1AA68A28849970B590A37DDD9 /* queue.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3A7748485084368787A80B33E2B89F38 /* pb_decode.c in Sources */ = {isa = PBXBuildFile; fileRef = 8669F4F53C395D8B2372AFD5E66D76FE /* pb_decode.c */; };
+		3ACD4F8594087619C231AD9FD090F667 /* atomic-ops.h in Headers */ = {isa = PBXBuildFile; fileRef = 6054D9FC462CF9DFA8108BE7886BBF5B /* atomic-ops.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3FA30CA9782D00ABBBA40C7ECEE19B63 /* fs-poll.c in Sources */ = {isa = PBXBuildFile; fileRef = A53AFDCF88109B610BA779620E4DCBE8 /* fs-poll.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		4069A5A0CD6379AB27C5EF55158477BE /* tty.c in Sources */ = {isa = PBXBuildFile; fileRef = C77C5B27F06E27F5C512F33715AA5CF6 /* tty.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		43ECB422282286CA140D4531C5E62488 /* signal.c in Sources */ = {isa = PBXBuildFile; fileRef = ECF57A10B923A10E12C9A5C5858E5915 /* signal.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		448030015B5D07F82F6E7468563834AB /* dl.c in Sources */ = {isa = PBXBuildFile; fileRef = 98D4891162A9AC67A38FC1DBDB8CD340 /* dl.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		4992A45897F2736B2FCC0EE91122DB6A /* darwin.c in Sources */ = {isa = PBXBuildFile; fileRef = 2D2B6CAF0E3B80E1657FDE9F86AAE6B6 /* darwin.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		4DD19819CB849836937AD3E1A1EA6383 /* fs.c in Sources */ = {isa = PBXBuildFile; fileRef = 7DFE3077004546065C6B66866E57511E /* fs.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		4F2139BC6928B64BDB907E0E2FF28B51 /* internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 147E325AF60A9DF5ECD7BFCC0A1F2F34 /* internal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		535FC347B2C515E2F5F2663FD38AE001 /* pipe.c in Sources */ = {isa = PBXBuildFile; fileRef = 8564A056C46D729368648406AF63A996 /* pipe.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		546F4692ED5D7F9E2D1E3BE012DB24D3 /* tr_uv_tls.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BD5D77899E5E6B02D5752BF205EDCF2 /* tr_uv_tls.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		57A21DBECD261959CAFE43A51BD27ACF /* pr_msg_pb.c in Sources */ = {isa = PBXBuildFile; fileRef = 04367408FED280E11428508D8B5A14CE /* pr_msg_pb.c */; };
+		5DDC8298002C26C0F8DC1A1E406BD42D /* fsevents.c in Sources */ = {isa = PBXBuildFile; fileRef = A94FD4BC8FCE13D62C25D20E4995D762 /* fsevents.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		618CF6701EA1A605A2F66994E1AE88A2 /* timer.c in Sources */ = {isa = PBXBuildFile; fileRef = 7CECCBD86F8F402EE9017D3666D39DE3 /* timer.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		6301A267ACC5C509B51608CDBB0E04A2 /* tr_uv_tls.c in Sources */ = {isa = PBXBuildFile; fileRef = 3DE7D1FAB9E5848490B1D1B4B704A204 /* tr_uv_tls.c */; };
+		6A37B919E93B7E0E40D0D88ED4B4743A /* tr_uv_tcp.c in Sources */ = {isa = PBXBuildFile; fileRef = DFCC3378CF16877F15623594549A607F /* tr_uv_tcp.c */; };
+		6D97BA7105E7D374661AB4C3A8A0A9B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		6E69AFE9289D6C988ED9BDE7D6624560 /* threadpool.c in Sources */ = {isa = PBXBuildFile; fileRef = 33634605692E28A58A43A32B0AEF424C /* threadpool.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		6EC286CD791E50FD6B017DC58EA19AB8 /* uv-errno.h in Headers */ = {isa = PBXBuildFile; fileRef = 77CF596FE29FAF92DDA89C2CF27508FA /* uv-errno.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6FDD4C875A570B64072962A9362890DE /* uv-darwin.h in Headers */ = {isa = PBXBuildFile; fileRef = F860EEF4ED79F72DF8F6FA8715425F95 /* uv-darwin.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7053BF8F2E1AE03E3F66AECC6E10D577 /* heap-inl.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BEB042CF2CBF0C7FEE8B1A94D68EC4B /* heap-inl.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		727F88D2E7D2A5F73497918FFA9F6690 /* tr_dummy.h in Headers */ = {isa = PBXBuildFile; fileRef = D57E8EDD6EC85D20158846692091E07A /* tr_dummy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7511F3648B5A4B961408E1261C0CA497 /* loop-watcher.c in Sources */ = {isa = PBXBuildFile; fileRef = 58370ECFE5B0B4F36BE3CA2D0F3CA534 /* loop-watcher.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		78306DA5CE8E95D8A8B531EE27A7AEED /* pb_i.c in Sources */ = {isa = PBXBuildFile; fileRef = 528F1F6601082BE453729272BA3E938A /* pb_i.c */; };
+		7897BE925511FAF3379393FFD4F3680A /* pc_trans.c in Sources */ = {isa = PBXBuildFile; fileRef = 0037AA4446920F75A2FE77F08A58B0E4 /* pc_trans.c */; };
+		78FF4C1F4A3B09EFE060821C86285EE5 /* pr_msg.c in Sources */ = {isa = PBXBuildFile; fileRef = 0F677F9F2590595CFB291A38B70B00ED /* pr_msg.c */; };
+		79AA17AEE2A4F3D09E52169E9F757F96 /* loop.c in Sources */ = {isa = PBXBuildFile; fileRef = 7193DE9C4CC948543C5DAD3585539AD5 /* loop.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7D6D7783951FCFB62CB2A2BB34939D33 /* linux-syscalls.h in Headers */ = {isa = PBXBuildFile; fileRef = FBD8114A3828B6A06A6227B3731DF517 /* linux-syscalls.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		80B470D13158963C0E872C8954D5878A /* pr_msg_json.c in Sources */ = {isa = PBXBuildFile; fileRef = 4D3396C99886B9211BCA28DE2DC483C8 /* pr_msg_json.c */; };
+		81B781FC87BB64F865EF5C6DCE24C556 /* tr_uv_tcp_aux.h in Headers */ = {isa = PBXBuildFile; fileRef = D7A4254E4E59B03E7DBC8776F368322A /* tr_uv_tcp_aux.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81E1A8713B9F6F7F41E2A11917B683B5 /* thread.c in Sources */ = {isa = PBXBuildFile; fileRef = 29FC1EE70BDCDFA2AA1F70C4298F84D9 /* thread.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		88CDEA74F7D9AF7CCA7296E1C5A8DADC /* queue.h in Headers */ = {isa = PBXBuildFile; fileRef = 62B61ED5EEF5457F837885F52B0FCF20 /* queue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8DC1202558B2F318D27250B23B5F26FF /* tr_uv_tls_aux.c in Sources */ = {isa = PBXBuildFile; fileRef = D34F5CC2D175E3BD999DFAF44A478D2F /* tr_uv_tls_aux.c */; };
+		8EC4610A6B9CB406344D7841F80FA1E2 /* poll.c in Sources */ = {isa = PBXBuildFile; fileRef = 6005D64AF4F9A8DADE39354F2702C2D1 /* poll.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		8EDB3B30048C596965DD28DA125D6C2B /* pomelo.h in Headers */ = {isa = PBXBuildFile; fileRef = F48E5E0A9FE0022F95D7C79D991C900C /* pomelo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90F034B1D168F16094A907F243697A8B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		92DA388DBD6E1531D9F26233C1E182C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		9A4276EE3D30DF421229374E89CF3F1A /* uv-threadpool.h in Headers */ = {isa = PBXBuildFile; fileRef = 2353B1FE60FCCB8AD4C5766383DCC59F /* uv-threadpool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B624CBD2F0BDB2F9592568C0ECF2DD0 /* spinlock.h in Headers */ = {isa = PBXBuildFile; fileRef = D1FFF9C305695E652F3A4BA7D70B9CD7 /* spinlock.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9BE8563FCC00B658617057069895C879 /* pc_lib.h in Headers */ = {isa = PBXBuildFile; fileRef = F12D2E49E7BC0862CBA7635D853777A1 /* pc_lib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A90E88658348DBF82F602A2FFD80690E /* tr_uv_tls_i.c in Sources */ = {isa = PBXBuildFile; fileRef = 63A2CD4531D57F2FC8FB1DBAC562D767 /* tr_uv_tls_i.c */; };
+		AC8CC698ED601779DBBE301916E6E545 /* pc_mutex.h in Headers */ = {isa = PBXBuildFile; fileRef = F99F76F273484CBDB6AC98A7A4A974C2 /* pc_mutex.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B06FB039268008B84030C5A8F8F6F504 /* pc_trans_repo.c in Sources */ = {isa = PBXBuildFile; fileRef = DA461E61CD4A6D5E5C2158A592266984 /* pc_trans_repo.c */; };
+		B2D726681CABDA478F76DCFBFE53B47F /* tr_uv_tls_i.h in Headers */ = {isa = PBXBuildFile; fileRef = 6563A504670D4BC61BFEE477BE915357 /* tr_uv_tls_i.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B448F3563977332621EC60AAD8AF03A5 /* kqueue.c in Sources */ = {isa = PBXBuildFile; fileRef = 7ED65F3DD479E2E02DD05B24CDD85E1E /* kqueue.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B562A3E1D0E4815C58F3148DDF204EC5 /* pc_trans_repo.h in Headers */ = {isa = PBXBuildFile; fileRef = F6CA8ED057847A7D60FD26702CC62A5F /* pc_trans_repo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5DAC9337381E865FB28CEA100263884 /* darwin-proctitle.c in Sources */ = {isa = PBXBuildFile; fileRef = 1BF06E1440B9F9021D4644487DCEC0A7 /* darwin-proctitle.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B69F40AFE11E983A7FA906BB6B3B929A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		B9B73642F09D18AAD4C9D9F46310F904 /* pomelo_trans.h in Headers */ = {isa = PBXBuildFile; fileRef = 198ACE46E1F213E8585C223DE4D81FCD /* pomelo_trans.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0AC7ADF806FAF6C263A370C0F73592A /* uv-version.h in Headers */ = {isa = PBXBuildFile; fileRef = 84408838C10A10F0324C32BB69CDEABB /* uv-version.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C15B3999041EAC24B11A88802FC9AE58 /* pc_lib.c in Sources */ = {isa = PBXBuildFile; fileRef = EFA56669EC8F9CD3AA853B00073BB447 /* pc_lib.c */; };
+		C2DF776D6B5868AFD93717849F646AEA /* libpomelo2-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D826E6263ADA3F5851875ECC7ED690C /* libpomelo2-dummy.m */; };
+		C37EE3ABB210FDA886CCB1DC67C51990 /* uv.h in Headers */ = {isa = PBXBuildFile; fileRef = F94D077653C74DED62773A868D309494 /* uv.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C3C26A179D9C97105448102CDBFEBF57 /* tr_uv_tcp_i.h in Headers */ = {isa = PBXBuildFile; fileRef = 71EDA5D1D786F00E6D86C98421098D47 /* tr_uv_tcp_i.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C509294B8E6C028E4897FB53014CDB85 /* core.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A235E29EB57872712689EA97B0E3328 /* core.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C5A3976BED4330DC52369ECE07433CD2 /* pr_msg.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E9128DC86EBC230F62C76BF5EC21A5C /* pr_msg.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C6AA508743B7B878A9C5C4A1DB732C23 /* tr_uv_tcp_i.c in Sources */ = {isa = PBXBuildFile; fileRef = EDF2D31B1C63FA2D2B11A23BC2B57BF3 /* tr_uv_tcp_i.c */; };
+		C741428D525C34BC6DE444DCBC20B82F /* pb_encode.c in Sources */ = {isa = PBXBuildFile; fileRef = 5997A9332B57122AAD56D4E2A3F46E39 /* pb_encode.c */; };
+		C986A2BDBB6CCC07D2BAF6C105BF848C /* pc_pomelo_i.h in Headers */ = {isa = PBXBuildFile; fileRef = 46CA8BDE91CCBCD556190798C32C4E3F /* pc_pomelo_i.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CBF19C974D5C559820602A6B84DB8123 /* tcp.c in Sources */ = {isa = PBXBuildFile; fileRef = D9B6DAA3958AC98F3A02A6B567DBB424 /* tcp.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D122EB3071A3434886D6E72C181CAE39 /* getnameinfo.c in Sources */ = {isa = PBXBuildFile; fileRef = 93DB8BE0A6388187076AA86F95BA2C2B /* getnameinfo.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D3D46412419FFF2514D690827CA5628B /* tr_uv_tcp_aux.c in Sources */ = {isa = PBXBuildFile; fileRef = CD4441FD67F4DD5B4DF4840564F7D907 /* tr_uv_tcp_aux.c */; };
+		DA6F92B71E18DAC494C7063898037422 /* proctitle.c in Sources */ = {isa = PBXBuildFile; fileRef = C2F05E5807F110A740BB87366292CD9D /* proctitle.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		DBCCFD402025B53B7FE782CE12B4E230 /* pc_JSON.h in Headers */ = {isa = PBXBuildFile; fileRef = 60D132C7D2DB63EEF8B9BCCF5E95A7CD /* pc_JSON.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD3472590EB0E0690AA928C0EC37BD38 /* tree.h in Headers */ = {isa = PBXBuildFile; fileRef = BDF91BAC4BB0E49D77C99D5ED7DAFDE5 /* tree.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD40142952406803C8B26DE055D1387B /* uv-unix.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C0E87EFF67AB87EFA2D04C23D849337 /* uv-unix.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD915F0DE398A29BA6E4C90D81E7FE29 /* Pods-libpomelo2_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D7CA5C2A3168EF38B1ECAE530E7D0511 /* Pods-libpomelo2_Example-dummy.m */; };
+		E3BAA1E60347713688E0276C4689D2AA /* uv-common.c in Sources */ = {isa = PBXBuildFile; fileRef = 29793BD3BE86443BFB3FBD5D53EB8417 /* uv-common.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E5B3592F8E779C8044DD82B2EFD16892 /* async.c in Sources */ = {isa = PBXBuildFile; fileRef = E6BA0DB23AB02D2A449828639592F7A0 /* async.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E9B5F4A2ECACC22F3C3F601A92665767 /* libuv-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D2E38880200569E083458EB2A9CF732 /* libuv-dummy.m */; };
+		F45E586F5B3DE3F10FF8230DCE84A866 /* tr_uv_tls_aux.h in Headers */ = {isa = PBXBuildFile; fileRef = AC026C5C97958180572D5B839A5A81A2 /* tr_uv_tls_aux.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F70416E368BFE4A9EE4607B24B5D2B27 /* Pods-libpomelo2_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A73F44147A2CB7192C1453890B86788A /* Pods-libpomelo2_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1FCFAE6C7B70411F0DD0D33FEF177530 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60B2CD79B9ED481F51AB8154A99FB7D6;
+			remoteInfo = libuv;
+		};
+		394F32E1A5C3D9F6CC60EECD1A56DA7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60B2CD79B9ED481F51AB8154A99FB7D6;
+			remoteInfo = libuv;
+		};
+		C086929526F38B329231D007A1CB9BFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88D528F3619D8DF67B710910F65DF8D2;
+			remoteInfo = libpomelo2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0037AA4446920F75A2FE77F08A58B0E4 /* pc_trans.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = pc_trans.c; sourceTree = "<group>"; };
+		04367408FED280E11428508D8B5A14CE /* pr_msg_pb.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = pr_msg_pb.c; sourceTree = "<group>"; };
+		08510FB7783DCF6894276F87D95ADDCB /* libpomelo2.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = libpomelo2.xcconfig; sourceTree = "<group>"; };
+		0B66DC03AAE44388E32A568D56224143 /* Pods-libpomelo2_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-libpomelo2_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		0B7F72EF1343607423D852FB654174A6 /* rand.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = rand.h; path = opensslIncludes/openssl/rand.h; sourceTree = "<group>"; };
+		0BEB042CF2CBF0C7FEE8B1A94D68EC4B /* heap-inl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "heap-inl.h"; path = "src/heap-inl.h"; sourceTree = "<group>"; };
+		0F677F9F2590595CFB291A38B70B00ED /* pr_msg.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = pr_msg.c; sourceTree = "<group>"; };
+		1300EEC637ED6F0733F64700669C89CA /* obj_mac.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = obj_mac.h; path = opensslIncludes/openssl/obj_mac.h; sourceTree = "<group>"; };
+		147E325AF60A9DF5ECD7BFCC0A1F2F34 /* internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = internal.h; path = src/unix/internal.h; sourceTree = "<group>"; };
+		182BB81DE633F53BBB6DCCC118F4725C /* ssl3.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ssl3.h; path = opensslIncludes/openssl/ssl3.h; sourceTree = "<group>"; };
+		18D3B792CDEA38A76D2F7FD8A8844CCA /* libssl.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libssl.a; path = lib/libssl.a; sourceTree = "<group>"; };
+		198ACE46E1F213E8585C223DE4D81FCD /* pomelo_trans.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = pomelo_trans.h; sourceTree = "<group>"; };
+		1BD5D77899E5E6B02D5752BF205EDCF2 /* tr_uv_tls.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = tr_uv_tls.h; sourceTree = "<group>"; };
+		1BF06E1440B9F9021D4644487DCEC0A7 /* darwin-proctitle.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = "darwin-proctitle.c"; path = "src/unix/darwin-proctitle.c"; sourceTree = "<group>"; };
+		1E22E5338B43D42B429DEE537BC9BC28 /* udp.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = udp.c; path = src/unix/udp.c; sourceTree = "<group>"; };
+		1FC5967495275330B18447FF51953738 /* crypto.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = crypto.h; path = opensslIncludes/openssl/crypto.h; sourceTree = "<group>"; };
+		20D90C691122E14065590A8B424ADAD1 /* buffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = buffer.h; path = opensslIncludes/openssl/buffer.h; sourceTree = "<group>"; };
+		231AF75C32BCD5B424EE287F48944F63 /* dso.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dso.h; path = opensslIncludes/openssl/dso.h; sourceTree = "<group>"; };
+		2353B1FE60FCCB8AD4C5766383DCC59F /* uv-threadpool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "uv-threadpool.h"; path = "include/uv-threadpool.h"; sourceTree = "<group>"; };
+		247C1EF4FD08476F50484085FCFD62A2 /* Pods-libpomelo2_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-libpomelo2_Tests-resources.sh"; sourceTree = "<group>"; };
+		270C375D1E170E52F737CC22794E2C04 /* md4.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = md4.h; path = opensslIncludes/openssl/md4.h; sourceTree = "<group>"; };
+		29793BD3BE86443BFB3FBD5D53EB8417 /* uv-common.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = "uv-common.c"; path = "src/uv-common.c"; sourceTree = "<group>"; };
+		29FC1EE70BDCDFA2AA1F70C4298F84D9 /* thread.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = thread.c; path = src/unix/thread.c; sourceTree = "<group>"; };
+		2C21323E5377918FB7F5590CF4B5DF11 /* aes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = aes.h; path = opensslIncludes/openssl/aes.h; sourceTree = "<group>"; };
+		2CFF98CC4106AAE1778AEE23CE3BC57E /* md5.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = md5.h; path = opensslIncludes/openssl/md5.h; sourceTree = "<group>"; };
+		2D2B6CAF0E3B80E1657FDE9F86AAE6B6 /* darwin.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = darwin.c; path = src/unix/darwin.c; sourceTree = "<group>"; };
+		2E22B687C8FA2A75A424BA30DF867ADF /* pr_pkg.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = pr_pkg.h; sourceTree = "<group>"; };
+		3096BEC6A3E1054FCFD27046B024879F /* des_old.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = des_old.h; path = opensslIncludes/openssl/des_old.h; sourceTree = "<group>"; };
+		3286155DBBCCB3485D5167AB53D6AAE9 /* txt_db.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = txt_db.h; path = opensslIncludes/openssl/txt_db.h; sourceTree = "<group>"; };
+		33634605692E28A58A43A32B0AEF424C /* threadpool.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = threadpool.c; path = src/threadpool.c; sourceTree = "<group>"; };
+		39E9C63EC2E34F9E369C328449043D25 /* pb.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = pb.h; sourceTree = "<group>"; };
+		3DE7D1FAB9E5848490B1D1B4B704A204 /* tr_uv_tls.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = tr_uv_tls.c; sourceTree = "<group>"; };
+		3E9128DC86EBC230F62C76BF5EC21A5C /* pr_msg.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = pr_msg.h; sourceTree = "<group>"; };
+		40958B85B214EB46ACC265D7006280C4 /* Pods-libpomelo2_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-libpomelo2_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		4137ABF90594CEE03F40458EFD295E7C /* liblibuv.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = liblibuv.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		445EB07274BA95B6F0E62CA689E971FF /* sha.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sha.h; path = opensslIncludes/openssl/sha.h; sourceTree = "<group>"; };
+		46CA8BDE91CCBCD556190798C32C4E3F /* pc_pomelo_i.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = pc_pomelo_i.h; sourceTree = "<group>"; };
+		473E54DEBCD60DBA71777AD7D131AE30 /* pem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pem.h; path = opensslIncludes/openssl/pem.h; sourceTree = "<group>"; };
+		490B33C795712B820EC8E63190EE6BC3 /* x509.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = x509.h; path = opensslIncludes/openssl/x509.h; sourceTree = "<group>"; };
+		4A235E29EB57872712689EA97B0E3328 /* core.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = core.c; path = src/unix/core.c; sourceTree = "<group>"; };
+		4BF79873AFF1C3C86EE887C27AC72A7E /* lhash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lhash.h; path = opensslIncludes/openssl/lhash.h; sourceTree = "<group>"; };
+		4D3396C99886B9211BCA28DE2DC483C8 /* pr_msg_json.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = pr_msg_json.c; sourceTree = "<group>"; };
+		502CF2218E249E015A554B23CFBCB731 /* asn1t.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = asn1t.h; path = opensslIncludes/openssl/asn1t.h; sourceTree = "<group>"; };
+		528F1F6601082BE453729272BA3E938A /* pb_i.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = pb_i.c; sourceTree = "<group>"; };
+		56910B1C8A6EF3D71CE90AC150A6D9BD /* libcrypto.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libcrypto.a; path = lib/libcrypto.a; sourceTree = "<group>"; };
+		58370ECFE5B0B4F36BE3CA2D0F3CA534 /* loop-watcher.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = "loop-watcher.c"; path = "src/unix/loop-watcher.c"; sourceTree = "<group>"; };
+		597DFAF9534BF67AD9DCC45A1F329388 /* rc4.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = rc4.h; path = opensslIncludes/openssl/rc4.h; sourceTree = "<group>"; };
+		5997A9332B57122AAD56D4E2A3F46E39 /* pb_encode.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = pb_encode.c; sourceTree = "<group>"; };
+		59C332217863B720E8DBCD74A502DA72 /* opensslv.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = opensslv.h; path = opensslIncludes/openssl/opensslv.h; sourceTree = "<group>"; };
+		5D2E38880200569E083458EB2A9CF732 /* libuv-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "libuv-dummy.m"; sourceTree = "<group>"; };
+		5EA35793599E851CC2DD0857CDABF657 /* err.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = err.h; path = opensslIncludes/openssl/err.h; sourceTree = "<group>"; };
+		5FDEB5D715AAC2314E0460BA8A248972 /* inet.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = inet.c; path = src/inet.c; sourceTree = "<group>"; };
+		6005D64AF4F9A8DADE39354F2702C2D1 /* poll.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = poll.c; path = src/unix/poll.c; sourceTree = "<group>"; };
+		6054D9FC462CF9DFA8108BE7886BBF5B /* atomic-ops.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "atomic-ops.h"; path = "src/unix/atomic-ops.h"; sourceTree = "<group>"; };
+		60D132C7D2DB63EEF8B9BCCF5E95A7CD /* pc_JSON.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = pc_JSON.h; sourceTree = "<group>"; };
+		62B61ED5EEF5457F837885F52B0FCF20 /* queue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = queue.h; sourceTree = "<group>"; };
+		63A2CD4531D57F2FC8FB1DBAC562D767 /* tr_uv_tls_i.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = tr_uv_tls_i.c; sourceTree = "<group>"; };
+		64022C63AC29BC5765CA2E99DC2D899E /* liblibpomelo2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = liblibpomelo2.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6462CDD226A302D1F28A28B94FBB1447 /* opensslconf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = opensslconf.h; path = opensslIncludes/openssl/opensslconf.h; sourceTree = "<group>"; };
+		6563A504670D4BC61BFEE477BE915357 /* tr_uv_tls_i.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = tr_uv_tls_i.h; sourceTree = "<group>"; };
+		65E2387069B7EBE49AE330A12A40942B /* stream.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = stream.c; path = src/unix/stream.c; sourceTree = "<group>"; };
+		69B990106D2661656EE36DDD94C7B0AC /* pkcs7.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pkcs7.h; path = opensslIncludes/openssl/pkcs7.h; sourceTree = "<group>"; };
+		6E39CD96C05B57A9A108EEDDE38A2473 /* ssl2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ssl2.h; path = opensslIncludes/openssl/ssl2.h; sourceTree = "<group>"; };
+		6F737BE1AA68A28849970B590A37DDD9 /* queue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = queue.h; path = src/queue.h; sourceTree = "<group>"; };
+		7193DE9C4CC948543C5DAD3585539AD5 /* loop.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = loop.c; path = src/unix/loop.c; sourceTree = "<group>"; };
+		71EDA5D1D786F00E6D86C98421098D47 /* tr_uv_tcp_i.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = tr_uv_tcp_i.h; sourceTree = "<group>"; };
+		725B0EABBE8A9A9DAE0D5C88F90B9118 /* engine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = engine.h; path = opensslIncludes/openssl/engine.h; sourceTree = "<group>"; };
+		7700010F70FB6F1E70A8BBE1E450B156 /* Pods-libpomelo2_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-libpomelo2_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		77CF596FE29FAF92DDA89C2CF27508FA /* uv-errno.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "uv-errno.h"; path = "include/uv-errno.h"; sourceTree = "<group>"; };
+		7A5E2EEF844F36A9BD59B821AAB2D171 /* uv-common.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "uv-common.h"; path = "src/uv-common.h"; sourceTree = "<group>"; };
+		7A5F89C5ACEEFB6F8585A22F9AE447A3 /* symhacks.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = symhacks.h; path = opensslIncludes/openssl/symhacks.h; sourceTree = "<group>"; };
+		7CECCBD86F8F402EE9017D3666D39DE3 /* timer.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = timer.c; path = src/unix/timer.c; sourceTree = "<group>"; };
+		7D826E6263ADA3F5851875ECC7ED690C /* libpomelo2-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "libpomelo2-dummy.m"; sourceTree = "<group>"; };
+		7DFE3077004546065C6B66866E57511E /* fs.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = fs.c; path = src/unix/fs.c; sourceTree = "<group>"; };
+		7ED65F3DD479E2E02DD05B24CDD85E1E /* kqueue.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = kqueue.c; path = src/unix/kqueue.c; sourceTree = "<group>"; };
+		7F0AC56CEBBAF3C028A91E9A5B7E14F6 /* Pods-libpomelo2_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-libpomelo2_Example-resources.sh"; sourceTree = "<group>"; };
+		7F0FE84EBB64AF893FA6110EB62EFA11 /* whrlpool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = whrlpool.h; path = opensslIncludes/openssl/whrlpool.h; sourceTree = "<group>"; };
+		8098F6597A776EBFB75A53B16CBA8EAB /* conf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = conf.h; path = opensslIncludes/openssl/conf.h; sourceTree = "<group>"; };
+		819D04A78C0D790D8CE4E6B29D735156 /* e_os2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = e_os2.h; path = opensslIncludes/openssl/e_os2.h; sourceTree = "<group>"; };
+		82B2D984EB2968485D75689D786DD7C1 /* pc_pomelo.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = pc_pomelo.c; sourceTree = "<group>"; };
+		836C361678E16750B570DF0E28494657 /* ts.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ts.h; path = opensslIncludes/openssl/ts.h; sourceTree = "<group>"; };
+		84408838C10A10F0324C32BB69CDEABB /* uv-version.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "uv-version.h"; path = "include/uv-version.h"; sourceTree = "<group>"; };
+		8564A056C46D729368648406AF63A996 /* pipe.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = pipe.c; path = src/unix/pipe.c; sourceTree = "<group>"; };
+		8669F4F53C395D8B2372AFD5E66D76FE /* pb_decode.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = pb_decode.c; sourceTree = "<group>"; };
+		8C7657B534724D384B73B7D6B66A46D8 /* ecdsa.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ecdsa.h; path = opensslIncludes/openssl/ecdsa.h; sourceTree = "<group>"; };
+		8E329AF67DD995D196C4F08094547503 /* dh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dh.h; path = opensslIncludes/openssl/dh.h; sourceTree = "<group>"; };
+		927ED2597B2B7F5210201872C7476FEE /* Pods-libpomelo2_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-libpomelo2_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93DB8BE0A6388187076AA86F95BA2C2B /* getnameinfo.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = getnameinfo.c; path = src/unix/getnameinfo.c; sourceTree = "<group>"; };
+		94358885DD87E0A8B349742206209C18 /* tr_dummy.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = tr_dummy.c; sourceTree = "<group>"; };
+		97A858FDA06D538C6AAC94393B878FD4 /* conf_api.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = conf_api.h; path = opensslIncludes/openssl/conf_api.h; sourceTree = "<group>"; };
+		98D4891162A9AC67A38FC1DBDB8CD340 /* dl.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = dl.c; path = src/unix/dl.c; sourceTree = "<group>"; };
+		9AB6AC38FD875317BC5AD914F279C308 /* evp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = evp.h; path = opensslIncludes/openssl/evp.h; sourceTree = "<group>"; };
+		9B2833C5D184D8A7425B4F40932FDC51 /* x509v3.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = x509v3.h; path = opensslIncludes/openssl/x509v3.h; sourceTree = "<group>"; };
+		9C0E87EFF67AB87EFA2D04C23D849337 /* uv-unix.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "uv-unix.h"; path = "include/uv-unix.h"; sourceTree = "<group>"; };
+		9CBBC599125769CBF4B60C740953815E /* rsa.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = rsa.h; path = opensslIncludes/openssl/rsa.h; sourceTree = "<group>"; };
+		9DDE735748246C26D02B8583910875D5 /* hmac.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = hmac.h; path = opensslIncludes/openssl/hmac.h; sourceTree = "<group>"; };
+		A0796637942675BCAFE1BD3E4F427DF6 /* des.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = des.h; path = opensslIncludes/openssl/des.h; sourceTree = "<group>"; };
+		A164A90B3DA9EA82E0D886DC9C04BA2D /* camellia.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = camellia.h; path = opensslIncludes/openssl/camellia.h; sourceTree = "<group>"; };
+		A487047E5286937D240B33E0FF00211B /* tls1.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tls1.h; path = opensslIncludes/openssl/tls1.h; sourceTree = "<group>"; };
+		A53AFDCF88109B610BA779620E4DCBE8 /* fs-poll.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = "fs-poll.c"; path = "src/fs-poll.c"; sourceTree = "<group>"; };
+		A675E40213B61AEC4A54B07DAC417DEC /* modes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = modes.h; path = opensslIncludes/openssl/modes.h; sourceTree = "<group>"; };
+		A73F44147A2CB7192C1453890B86788A /* Pods-libpomelo2_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-libpomelo2_Tests-dummy.m"; sourceTree = "<group>"; };
+		A94FD4BC8FCE13D62C25D20E4995D762 /* fsevents.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = fsevents.c; path = src/unix/fsevents.c; sourceTree = "<group>"; };
+		AA306203F0C1B4C6662A13A5DA3DE2FA /* ssl23.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ssl23.h; path = opensslIncludes/openssl/ssl23.h; sourceTree = "<group>"; };
+		AAA0A07811662BE2BD20FF50106D8063 /* libuv.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = libuv.xcconfig; sourceTree = "<group>"; };
+		AC026C5C97958180572D5B839A5A81A2 /* tr_uv_tls_aux.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = tr_uv_tls_aux.h; sourceTree = "<group>"; };
+		AE89455FAAA059D812744DB482BE6EB7 /* Pods-libpomelo2_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-libpomelo2_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		B0B8C02965453520ABCD126D2FB623BB /* libuv-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "libuv-prefix.pch"; sourceTree = "<group>"; };
+		B11D3206FC69A243A7DFEA4950A44C5A /* getaddrinfo.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = getaddrinfo.c; path = src/unix/getaddrinfo.c; sourceTree = "<group>"; };
+		B5625B970B62DB46AAA73635B6695699 /* version.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = version.c; path = src/version.c; sourceTree = "<group>"; };
+		B74E496F99F060566289C69579322DB5 /* rc2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = rc2.h; path = opensslIncludes/openssl/rc2.h; sourceTree = "<group>"; };
+		B768F6A8E0E003E08BECD39B396D7109 /* pqueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pqueue.h; path = opensslIncludes/openssl/pqueue.h; sourceTree = "<group>"; };
+		B9EF28EB7BEBA82D5330BF807DBBBCF8 /* srtp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = srtp.h; path = opensslIncludes/openssl/srtp.h; sourceTree = "<group>"; };
+		BDF91BAC4BB0E49D77C99D5ED7DAFDE5 /* tree.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tree.h; path = include/tree.h; sourceTree = "<group>"; };
+		BFCE619918920F09213E261421BF00C0 /* cms.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cms.h; path = opensslIncludes/openssl/cms.h; sourceTree = "<group>"; };
+		C2BAEAD033763146FE47B3C75CC461C7 /* Pods-libpomelo2_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-libpomelo2_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C2F05E5807F110A740BB87366292CD9D /* proctitle.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = proctitle.c; path = src/unix/proctitle.c; sourceTree = "<group>"; };
+		C2FD691B4B94D6529EFCA344056AEFCD /* mdc2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mdc2.h; path = opensslIncludes/openssl/mdc2.h; sourceTree = "<group>"; };
+		C306E7380128B31D72DA41A557D7E58B /* safestack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = safestack.h; path = opensslIncludes/openssl/safestack.h; sourceTree = "<group>"; };
+		C5D5D4C8A996DCA453DCF7A45925F937 /* asn1_mac.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = asn1_mac.h; path = opensslIncludes/openssl/asn1_mac.h; sourceTree = "<group>"; };
+		C5DB4E1A401238E5D15739CA10AE4305 /* ocsp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ocsp.h; path = opensslIncludes/openssl/ocsp.h; sourceTree = "<group>"; };
+		C65461F6D43812F4DF8702E27C96376F /* objects.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = objects.h; path = opensslIncludes/openssl/objects.h; sourceTree = "<group>"; };
+		C77C5B27F06E27F5C512F33715AA5CF6 /* tty.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = tty.c; path = src/unix/tty.c; sourceTree = "<group>"; };
+		CA97C5688E39D42A15B4BAADF4FDB5F7 /* dsa.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dsa.h; path = opensslIncludes/openssl/dsa.h; sourceTree = "<group>"; };
+		CAAD6D8F7AE5B2947E52F0C6599ABEB0 /* krb5_asn.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = krb5_asn.h; path = opensslIncludes/openssl/krb5_asn.h; sourceTree = "<group>"; };
+		CB689E317CBEBB4FC0485799FF4164F1 /* stack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = stack.h; path = opensslIncludes/openssl/stack.h; sourceTree = "<group>"; };
+		CD4441FD67F4DD5B4DF4840564F7D907 /* tr_uv_tcp_aux.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = tr_uv_tcp_aux.c; sourceTree = "<group>"; };
+		CE0C25706A7CB00303902B6FEFC46187 /* dtls1.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dtls1.h; path = opensslIncludes/openssl/dtls1.h; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D0E6EFA8A80C111033BCE1F5F508BFA8 /* ecdh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ecdh.h; path = opensslIncludes/openssl/ecdh.h; sourceTree = "<group>"; };
+		D13ECEC856C85977BDD262DA276105F0 /* seed.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = seed.h; path = opensslIncludes/openssl/seed.h; sourceTree = "<group>"; };
+		D1FFF9C305695E652F3A4BA7D70B9CD7 /* spinlock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = spinlock.h; path = src/unix/spinlock.h; sourceTree = "<group>"; };
+		D34F5CC2D175E3BD999DFAF44A478D2F /* tr_uv_tls_aux.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = tr_uv_tls_aux.c; sourceTree = "<group>"; };
+		D485C50C26AE74092AF83D27079CC0B1 /* Pods-libpomelo2_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-libpomelo2_Example-frameworks.sh"; sourceTree = "<group>"; };
+		D57E8EDD6EC85D20158846692091E07A /* tr_dummy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = tr_dummy.h; sourceTree = "<group>"; };
+		D68C76B64ED29F5429CDEC9E70A30956 /* pc_JSON.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = pc_JSON.c; sourceTree = "<group>"; };
+		D7A4254E4E59B03E7DBC8776F368322A /* tr_uv_tcp_aux.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = tr_uv_tcp_aux.h; sourceTree = "<group>"; };
+		D7CA5C2A3168EF38B1ECAE530E7D0511 /* Pods-libpomelo2_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-libpomelo2_Example-dummy.m"; sourceTree = "<group>"; };
+		D9B6DAA3958AC98F3A02A6B567DBB424 /* tcp.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = tcp.c; path = src/unix/tcp.c; sourceTree = "<group>"; };
+		DA461E61CD4A6D5E5C2158A592266984 /* pc_trans_repo.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = pc_trans_repo.c; sourceTree = "<group>"; };
+		DCFEAE477B3EE8E4811791486156E626 /* x509_vfy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = x509_vfy.h; path = opensslIncludes/openssl/x509_vfy.h; sourceTree = "<group>"; };
+		DDC15E7045D5126223CCF768ACB6B22C /* ossl_typ.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ossl_typ.h; path = opensslIncludes/openssl/ossl_typ.h; sourceTree = "<group>"; };
+		DDDC6BD4A4E91CCC7C9D6FAD82CFC57B /* ripemd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ripemd.h; path = opensslIncludes/openssl/ripemd.h; sourceTree = "<group>"; };
+		DFC6A029E8AA28875E82CC291DD6962B /* idea.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = idea.h; path = opensslIncludes/openssl/idea.h; sourceTree = "<group>"; };
+		DFCC3378CF16877F15623594549A607F /* tr_uv_tcp.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = tr_uv_tcp.c; sourceTree = "<group>"; };
+		E03548BA0378ED855EDA704196F9BBC2 /* Pods-libpomelo2_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-libpomelo2_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		E05942176459774900430D343A0AAA72 /* asn1.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = asn1.h; path = opensslIncludes/openssl/asn1.h; sourceTree = "<group>"; };
+		E3EF8FA65B045F82E5854BB9439DF99F /* libPods-libpomelo2_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-libpomelo2_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3FE2789167931FDA060070540075CA5 /* cmac.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cmac.h; path = opensslIncludes/openssl/cmac.h; sourceTree = "<group>"; };
+		E45D022C13C00662F7ACE148D1F3A032 /* Pods-libpomelo2_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-libpomelo2_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		E4A4250CBABDA97A8CC159EEFA1B5D4A /* ssl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ssl.h; path = opensslIncludes/openssl/ssl.h; sourceTree = "<group>"; };
+		E6BA0DB23AB02D2A449828639592F7A0 /* async.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = async.c; path = src/unix/async.c; sourceTree = "<group>"; };
+		E819F68692FDD2EE5F579EA0B650DFBD /* ebcdic.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ebcdic.h; path = opensslIncludes/openssl/ebcdic.h; sourceTree = "<group>"; };
+		E8447E44A9AB9DED0A684F9074A0D6D7 /* blowfish.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = blowfish.h; path = opensslIncludes/openssl/blowfish.h; sourceTree = "<group>"; };
+		E84876C961D00C05D56C0C002EE98060 /* pem2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pem2.h; path = opensslIncludes/openssl/pem2.h; sourceTree = "<group>"; };
+		ECF57A10B923A10E12C9A5C5858E5915 /* signal.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = signal.c; path = src/unix/signal.c; sourceTree = "<group>"; };
+		ECFCD7847920D0F561B750148CEBC813 /* process.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = process.c; path = src/unix/process.c; sourceTree = "<group>"; };
+		EDF2D31B1C63FA2D2B11A23BC2B57BF3 /* tr_uv_tcp_i.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = tr_uv_tcp_i.c; sourceTree = "<group>"; };
+		EE5833F403980C9AD2511C73873B41B3 /* comp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = comp.h; path = opensslIncludes/openssl/comp.h; sourceTree = "<group>"; };
+		EFA56669EC8F9CD3AA853B00073BB447 /* pc_lib.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = pc_lib.c; sourceTree = "<group>"; };
+		EFCE497807FC06FFA4E43B167D16B1C5 /* kssl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = kssl.h; path = opensslIncludes/openssl/kssl.h; sourceTree = "<group>"; };
+		F06D3565EFC999660AD1FB392B6EC5F6 /* cast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cast.h; path = opensslIncludes/openssl/cast.h; sourceTree = "<group>"; };
+		F12D2E49E7BC0862CBA7635D853777A1 /* pc_lib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = pc_lib.h; sourceTree = "<group>"; };
+		F1BEF3FDCBAE623B79DC823369AE61C3 /* srp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = srp.h; path = opensslIncludes/openssl/srp.h; sourceTree = "<group>"; };
+		F2768226CA62EC6DD5D2806B27ED16EA /* bio.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = bio.h; path = opensslIncludes/openssl/bio.h; sourceTree = "<group>"; };
+		F41DB68E19B4CE97A2FE20819EB54D10 /* ec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ec.h; path = opensslIncludes/openssl/ec.h; sourceTree = "<group>"; };
+		F48E5E0A9FE0022F95D7C79D991C900C /* pomelo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = pomelo.h; sourceTree = "<group>"; };
+		F536D5883F153A0503DD718A3A6CDE51 /* pkcs12.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pkcs12.h; path = opensslIncludes/openssl/pkcs12.h; sourceTree = "<group>"; };
+		F5432804F195A264A4106E953B133090 /* bn.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = bn.h; path = opensslIncludes/openssl/bn.h; sourceTree = "<group>"; };
+		F6CA8ED057847A7D60FD26702CC62A5F /* pc_trans_repo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = pc_trans_repo.h; sourceTree = "<group>"; };
+		F6E0ABBCD3E21F6F823C27C262A4333A /* tr_uv_tcp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = tr_uv_tcp.h; sourceTree = "<group>"; };
+		F6F8E02D77E1794921D574004B9E974B /* Pods-libpomelo2_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-libpomelo2_Example.release.xcconfig"; sourceTree = "<group>"; };
+		F7693C8AE08040D96D05F65EBECF0772 /* pr_pkg.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = pr_pkg.c; sourceTree = "<group>"; };
+		F860EEF4ED79F72DF8F6FA8715425F95 /* uv-darwin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "uv-darwin.h"; path = "include/uv-darwin.h"; sourceTree = "<group>"; };
+		F94D077653C74DED62773A868D309494 /* uv.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = uv.h; path = include/uv.h; sourceTree = "<group>"; };
+		F99F76F273484CBDB6AC98A7A4A974C2 /* pc_mutex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = pc_mutex.h; sourceTree = "<group>"; };
+		FAA8115B5A69CA123C73AD4BA671FEA9 /* libpomelo2-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "libpomelo2-prefix.pch"; sourceTree = "<group>"; };
+		FBD8114A3828B6A06A6227B3731DF517 /* linux-syscalls.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "linux-syscalls.h"; path = "src/unix/linux-syscalls.h"; sourceTree = "<group>"; };
+		FBE4CE17A3C4A9F0A83354EB9F061EE5 /* ui.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ui.h; path = opensslIncludes/openssl/ui.h; sourceTree = "<group>"; };
+		FBEF328640F94410C52ADD801965E70E /* libPods-libpomelo2_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-libpomelo2_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF7524F9C106B90D9710101C462D18EA /* ui_compat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ui_compat.h; path = opensslIncludes/openssl/ui_compat.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		392C96FB64B83F927AC1E0099ADA1C1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92DA388DBD6E1531D9F26233C1E182C5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		580AF7F96FA48D16010A44CB6E46B6CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90F034B1D168F16094A907F243697A8B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DF6A924332E91A8EB0FE7C399378FC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D97BA7105E7D374661AB4C3A8A0A9B5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD93FC1396F4E6D535D90B456CF7168B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B69F40AFE11E983A7FA906BB6B3B929A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0EE2CD4606094639EDDE1CA835064530 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				30280E8B3CB2960627553EE8B61C3A8A /* libpomelo2 */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		1B992BA58BE5E5538C5F29E8FCE2A788 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				F48E5E0A9FE0022F95D7C79D991C900C /* pomelo.h */,
+				198ACE46E1F213E8585C223DE4D81FCD /* pomelo_trans.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		227EC02EA8389AB3C37C980CB9BEEF2F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				56910B1C8A6EF3D71CE90AC150A6D9BD /* libcrypto.a */,
+				18D3B792CDEA38A76D2F7FD8A8844CCA /* libssl.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		29A3C9A8A04B6B365B539B525DFB03B6 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				D68C76B64ED29F5429CDEC9E70A30956 /* pc_JSON.c */,
+				60D132C7D2DB63EEF8B9BCCF5E95A7CD /* pc_JSON.h */,
+				EFA56669EC8F9CD3AA853B00073BB447 /* pc_lib.c */,
+				F12D2E49E7BC0862CBA7635D853777A1 /* pc_lib.h */,
+				F99F76F273484CBDB6AC98A7A4A974C2 /* pc_mutex.h */,
+				82B2D984EB2968485D75689D786DD7C1 /* pc_pomelo.c */,
+				46CA8BDE91CCBCD556190798C32C4E3F /* pc_pomelo_i.h */,
+				0037AA4446920F75A2FE77F08A58B0E4 /* pc_trans.c */,
+				DA461E61CD4A6D5E5C2158A592266984 /* pc_trans_repo.c */,
+				F6CA8ED057847A7D60FD26702CC62A5F /* pc_trans_repo.h */,
+				62B61ED5EEF5457F837885F52B0FCF20 /* queue.h */,
+				FE212353BA6D985F22B5EC221C5F7416 /* tr */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		2EB533A0B44A0EB1916EB174DBB01C07 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AAA0A07811662BE2BD20FF50106D8063 /* libuv.xcconfig */,
+				5D2E38880200569E083458EB2A9CF732 /* libuv-dummy.m */,
+				B0B8C02965453520ABCD126D2FB623BB /* libuv-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/libuv";
+			sourceTree = "<group>";
+		};
+		30280E8B3CB2960627553EE8B61C3A8A /* libpomelo2 */ = {
+			isa = PBXGroup;
+			children = (
+				1B992BA58BE5E5538C5F29E8FCE2A788 /* include */,
+				29A3C9A8A04B6B365B539B525DFB03B6 /* src */,
+				F2B53624FB2FABF750E7867F21E0B14E /* Support Files */,
+			);
+			name = libpomelo2;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		39A722EF3399E6291694202C3336FBEB /* libuv */ = {
+			isa = PBXGroup;
+			children = (
+				E6BA0DB23AB02D2A449828639592F7A0 /* async.c */,
+				6054D9FC462CF9DFA8108BE7886BBF5B /* atomic-ops.h */,
+				4A235E29EB57872712689EA97B0E3328 /* core.c */,
+				2D2B6CAF0E3B80E1657FDE9F86AAE6B6 /* darwin.c */,
+				1BF06E1440B9F9021D4644487DCEC0A7 /* darwin-proctitle.c */,
+				98D4891162A9AC67A38FC1DBDB8CD340 /* dl.c */,
+				7DFE3077004546065C6B66866E57511E /* fs.c */,
+				A53AFDCF88109B610BA779620E4DCBE8 /* fs-poll.c */,
+				A94FD4BC8FCE13D62C25D20E4995D762 /* fsevents.c */,
+				B11D3206FC69A243A7DFEA4950A44C5A /* getaddrinfo.c */,
+				93DB8BE0A6388187076AA86F95BA2C2B /* getnameinfo.c */,
+				0BEB042CF2CBF0C7FEE8B1A94D68EC4B /* heap-inl.h */,
+				5FDEB5D715AAC2314E0460BA8A248972 /* inet.c */,
+				147E325AF60A9DF5ECD7BFCC0A1F2F34 /* internal.h */,
+				7ED65F3DD479E2E02DD05B24CDD85E1E /* kqueue.c */,
+				FBD8114A3828B6A06A6227B3731DF517 /* linux-syscalls.h */,
+				7193DE9C4CC948543C5DAD3585539AD5 /* loop.c */,
+				58370ECFE5B0B4F36BE3CA2D0F3CA534 /* loop-watcher.c */,
+				8564A056C46D729368648406AF63A996 /* pipe.c */,
+				6005D64AF4F9A8DADE39354F2702C2D1 /* poll.c */,
+				ECFCD7847920D0F561B750148CEBC813 /* process.c */,
+				C2F05E5807F110A740BB87366292CD9D /* proctitle.c */,
+				6F737BE1AA68A28849970B590A37DDD9 /* queue.h */,
+				ECF57A10B923A10E12C9A5C5858E5915 /* signal.c */,
+				D1FFF9C305695E652F3A4BA7D70B9CD7 /* spinlock.h */,
+				65E2387069B7EBE49AE330A12A40942B /* stream.c */,
+				D9B6DAA3958AC98F3A02A6B567DBB424 /* tcp.c */,
+				29FC1EE70BDCDFA2AA1F70C4298F84D9 /* thread.c */,
+				33634605692E28A58A43A32B0AEF424C /* threadpool.c */,
+				7CECCBD86F8F402EE9017D3666D39DE3 /* timer.c */,
+				BDF91BAC4BB0E49D77C99D5ED7DAFDE5 /* tree.h */,
+				C77C5B27F06E27F5C512F33715AA5CF6 /* tty.c */,
+				1E22E5338B43D42B429DEE537BC9BC28 /* udp.c */,
+				F94D077653C74DED62773A868D309494 /* uv.h */,
+				29793BD3BE86443BFB3FBD5D53EB8417 /* uv-common.c */,
+				7A5E2EEF844F36A9BD59B821AAB2D171 /* uv-common.h */,
+				F860EEF4ED79F72DF8F6FA8715425F95 /* uv-darwin.h */,
+				77CF596FE29FAF92DDA89C2CF27508FA /* uv-errno.h */,
+				2353B1FE60FCCB8AD4C5766383DCC59F /* uv-threadpool.h */,
+				9C0E87EFF67AB87EFA2D04C23D849337 /* uv-unix.h */,
+				84408838C10A10F0324C32BB69CDEABB /* uv-version.h */,
+				B5625B970B62DB46AAA73635B6695699 /* version.c */,
+				2EB533A0B44A0EB1916EB174DBB01C07 /* Support Files */,
+			);
+			path = libuv;
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				0EE2CD4606094639EDDE1CA835064530 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				D88D32A331F0D1987B51557D993A6390 /* Pods */,
+				F5FC2A3F79B87716FB9222671CC7D946 /* Products */,
+				95C97C73456BF75C5AA599BAD7F47E96 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		87AF298FED8EE68037794A9CE701FF01 /* Pods-libpomelo2_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C2BAEAD033763146FE47B3C75CC461C7 /* Pods-libpomelo2_Tests-acknowledgements.markdown */,
+				0B66DC03AAE44388E32A568D56224143 /* Pods-libpomelo2_Tests-acknowledgements.plist */,
+				A73F44147A2CB7192C1453890B86788A /* Pods-libpomelo2_Tests-dummy.m */,
+				40958B85B214EB46ACC265D7006280C4 /* Pods-libpomelo2_Tests-frameworks.sh */,
+				247C1EF4FD08476F50484085FCFD62A2 /* Pods-libpomelo2_Tests-resources.sh */,
+				927ED2597B2B7F5210201872C7476FEE /* Pods-libpomelo2_Tests.debug.xcconfig */,
+				E45D022C13C00662F7ACE148D1F3A032 /* Pods-libpomelo2_Tests.release.xcconfig */,
+			);
+			name = "Pods-libpomelo2_Tests";
+			path = "Target Support Files/Pods-libpomelo2_Tests";
+			sourceTree = "<group>";
+		};
+		927ED34E80F0DC18099C3204F0ED3220 /* OpenSSL */ = {
+			isa = PBXGroup;
+			children = (
+				2C21323E5377918FB7F5590CF4B5DF11 /* aes.h */,
+				E05942176459774900430D343A0AAA72 /* asn1.h */,
+				C5D5D4C8A996DCA453DCF7A45925F937 /* asn1_mac.h */,
+				502CF2218E249E015A554B23CFBCB731 /* asn1t.h */,
+				F2768226CA62EC6DD5D2806B27ED16EA /* bio.h */,
+				E8447E44A9AB9DED0A684F9074A0D6D7 /* blowfish.h */,
+				F5432804F195A264A4106E953B133090 /* bn.h */,
+				20D90C691122E14065590A8B424ADAD1 /* buffer.h */,
+				A164A90B3DA9EA82E0D886DC9C04BA2D /* camellia.h */,
+				F06D3565EFC999660AD1FB392B6EC5F6 /* cast.h */,
+				E3FE2789167931FDA060070540075CA5 /* cmac.h */,
+				BFCE619918920F09213E261421BF00C0 /* cms.h */,
+				EE5833F403980C9AD2511C73873B41B3 /* comp.h */,
+				8098F6597A776EBFB75A53B16CBA8EAB /* conf.h */,
+				97A858FDA06D538C6AAC94393B878FD4 /* conf_api.h */,
+				1FC5967495275330B18447FF51953738 /* crypto.h */,
+				A0796637942675BCAFE1BD3E4F427DF6 /* des.h */,
+				3096BEC6A3E1054FCFD27046B024879F /* des_old.h */,
+				8E329AF67DD995D196C4F08094547503 /* dh.h */,
+				CA97C5688E39D42A15B4BAADF4FDB5F7 /* dsa.h */,
+				231AF75C32BCD5B424EE287F48944F63 /* dso.h */,
+				CE0C25706A7CB00303902B6FEFC46187 /* dtls1.h */,
+				819D04A78C0D790D8CE4E6B29D735156 /* e_os2.h */,
+				E819F68692FDD2EE5F579EA0B650DFBD /* ebcdic.h */,
+				F41DB68E19B4CE97A2FE20819EB54D10 /* ec.h */,
+				D0E6EFA8A80C111033BCE1F5F508BFA8 /* ecdh.h */,
+				8C7657B534724D384B73B7D6B66A46D8 /* ecdsa.h */,
+				725B0EABBE8A9A9DAE0D5C88F90B9118 /* engine.h */,
+				5EA35793599E851CC2DD0857CDABF657 /* err.h */,
+				9AB6AC38FD875317BC5AD914F279C308 /* evp.h */,
+				9DDE735748246C26D02B8583910875D5 /* hmac.h */,
+				DFC6A029E8AA28875E82CC291DD6962B /* idea.h */,
+				CAAD6D8F7AE5B2947E52F0C6599ABEB0 /* krb5_asn.h */,
+				EFCE497807FC06FFA4E43B167D16B1C5 /* kssl.h */,
+				4BF79873AFF1C3C86EE887C27AC72A7E /* lhash.h */,
+				270C375D1E170E52F737CC22794E2C04 /* md4.h */,
+				2CFF98CC4106AAE1778AEE23CE3BC57E /* md5.h */,
+				C2FD691B4B94D6529EFCA344056AEFCD /* mdc2.h */,
+				A675E40213B61AEC4A54B07DAC417DEC /* modes.h */,
+				1300EEC637ED6F0733F64700669C89CA /* obj_mac.h */,
+				C65461F6D43812F4DF8702E27C96376F /* objects.h */,
+				C5DB4E1A401238E5D15739CA10AE4305 /* ocsp.h */,
+				6462CDD226A302D1F28A28B94FBB1447 /* opensslconf.h */,
+				59C332217863B720E8DBCD74A502DA72 /* opensslv.h */,
+				DDC15E7045D5126223CCF768ACB6B22C /* ossl_typ.h */,
+				473E54DEBCD60DBA71777AD7D131AE30 /* pem.h */,
+				E84876C961D00C05D56C0C002EE98060 /* pem2.h */,
+				F536D5883F153A0503DD718A3A6CDE51 /* pkcs12.h */,
+				69B990106D2661656EE36DDD94C7B0AC /* pkcs7.h */,
+				B768F6A8E0E003E08BECD39B396D7109 /* pqueue.h */,
+				0B7F72EF1343607423D852FB654174A6 /* rand.h */,
+				B74E496F99F060566289C69579322DB5 /* rc2.h */,
+				597DFAF9534BF67AD9DCC45A1F329388 /* rc4.h */,
+				DDDC6BD4A4E91CCC7C9D6FAD82CFC57B /* ripemd.h */,
+				9CBBC599125769CBF4B60C740953815E /* rsa.h */,
+				C306E7380128B31D72DA41A557D7E58B /* safestack.h */,
+				D13ECEC856C85977BDD262DA276105F0 /* seed.h */,
+				445EB07274BA95B6F0E62CA689E971FF /* sha.h */,
+				F1BEF3FDCBAE623B79DC823369AE61C3 /* srp.h */,
+				B9EF28EB7BEBA82D5330BF807DBBBCF8 /* srtp.h */,
+				E4A4250CBABDA97A8CC159EEFA1B5D4A /* ssl.h */,
+				6E39CD96C05B57A9A108EEDDE38A2473 /* ssl2.h */,
+				AA306203F0C1B4C6662A13A5DA3DE2FA /* ssl23.h */,
+				182BB81DE633F53BBB6DCCC118F4725C /* ssl3.h */,
+				CB689E317CBEBB4FC0485799FF4164F1 /* stack.h */,
+				7A5F89C5ACEEFB6F8585A22F9AE447A3 /* symhacks.h */,
+				A487047E5286937D240B33E0FF00211B /* tls1.h */,
+				836C361678E16750B570DF0E28494657 /* ts.h */,
+				3286155DBBCCB3485D5167AB53D6AAE9 /* txt_db.h */,
+				FBE4CE17A3C4A9F0A83354EB9F061EE5 /* ui.h */,
+				FF7524F9C106B90D9710101C462D18EA /* ui_compat.h */,
+				7F0FE84EBB64AF893FA6110EB62EFA11 /* whrlpool.h */,
+				490B33C795712B820EC8E63190EE6BC3 /* x509.h */,
+				DCFEAE477B3EE8E4811791486156E626 /* x509_vfy.h */,
+				9B2833C5D184D8A7425B4F40932FDC51 /* x509v3.h */,
+				227EC02EA8389AB3C37C980CB9BEEF2F /* Frameworks */,
+			);
+			path = OpenSSL;
+			sourceTree = "<group>";
+		};
+		95C97C73456BF75C5AA599BAD7F47E96 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB15FB06EC51FAACED020D7D0C98D151 /* Pods-libpomelo2_Example */,
+				87AF298FED8EE68037794A9CE701FF01 /* Pods-libpomelo2_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A0192492261B533278B13FC8D8733F55 /* uv */ = {
+			isa = PBXGroup;
+			children = (
+				39E9C63EC2E34F9E369C328449043D25 /* pb.h */,
+				8669F4F53C395D8B2372AFD5E66D76FE /* pb_decode.c */,
+				5997A9332B57122AAD56D4E2A3F46E39 /* pb_encode.c */,
+				528F1F6601082BE453729272BA3E938A /* pb_i.c */,
+				0F677F9F2590595CFB291A38B70B00ED /* pr_msg.c */,
+				3E9128DC86EBC230F62C76BF5EC21A5C /* pr_msg.h */,
+				4D3396C99886B9211BCA28DE2DC483C8 /* pr_msg_json.c */,
+				04367408FED280E11428508D8B5A14CE /* pr_msg_pb.c */,
+				F7693C8AE08040D96D05F65EBECF0772 /* pr_pkg.c */,
+				2E22B687C8FA2A75A424BA30DF867ADF /* pr_pkg.h */,
+				DFCC3378CF16877F15623594549A607F /* tr_uv_tcp.c */,
+				F6E0ABBCD3E21F6F823C27C262A4333A /* tr_uv_tcp.h */,
+				CD4441FD67F4DD5B4DF4840564F7D907 /* tr_uv_tcp_aux.c */,
+				D7A4254E4E59B03E7DBC8776F368322A /* tr_uv_tcp_aux.h */,
+				EDF2D31B1C63FA2D2B11A23BC2B57BF3 /* tr_uv_tcp_i.c */,
+				71EDA5D1D786F00E6D86C98421098D47 /* tr_uv_tcp_i.h */,
+				3DE7D1FAB9E5848490B1D1B4B704A204 /* tr_uv_tls.c */,
+				1BD5D77899E5E6B02D5752BF205EDCF2 /* tr_uv_tls.h */,
+				D34F5CC2D175E3BD999DFAF44A478D2F /* tr_uv_tls_aux.c */,
+				AC026C5C97958180572D5B839A5A81A2 /* tr_uv_tls_aux.h */,
+				63A2CD4531D57F2FC8FB1DBAC562D767 /* tr_uv_tls_i.c */,
+				6563A504670D4BC61BFEE477BE915357 /* tr_uv_tls_i.h */,
+			);
+			path = uv;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D88D32A331F0D1987B51557D993A6390 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				39A722EF3399E6291694202C3336FBEB /* libuv */,
+				927ED34E80F0DC18099C3204F0ED3220 /* OpenSSL */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DB15FB06EC51FAACED020D7D0C98D151 /* Pods-libpomelo2_Example */ = {
+			isa = PBXGroup;
+			children = (
+				7700010F70FB6F1E70A8BBE1E450B156 /* Pods-libpomelo2_Example-acknowledgements.markdown */,
+				E03548BA0378ED855EDA704196F9BBC2 /* Pods-libpomelo2_Example-acknowledgements.plist */,
+				D7CA5C2A3168EF38B1ECAE530E7D0511 /* Pods-libpomelo2_Example-dummy.m */,
+				D485C50C26AE74092AF83D27079CC0B1 /* Pods-libpomelo2_Example-frameworks.sh */,
+				7F0AC56CEBBAF3C028A91E9A5B7E14F6 /* Pods-libpomelo2_Example-resources.sh */,
+				AE89455FAAA059D812744DB482BE6EB7 /* Pods-libpomelo2_Example.debug.xcconfig */,
+				F6F8E02D77E1794921D574004B9E974B /* Pods-libpomelo2_Example.release.xcconfig */,
+			);
+			name = "Pods-libpomelo2_Example";
+			path = "Target Support Files/Pods-libpomelo2_Example";
+			sourceTree = "<group>";
+		};
+		EF9E3F4E03DA1166F4E30BABC8FA1B87 /* dummy */ = {
+			isa = PBXGroup;
+			children = (
+				94358885DD87E0A8B349742206209C18 /* tr_dummy.c */,
+				D57E8EDD6EC85D20158846692091E07A /* tr_dummy.h */,
+			);
+			path = dummy;
+			sourceTree = "<group>";
+		};
+		F2B53624FB2FABF750E7867F21E0B14E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				08510FB7783DCF6894276F87D95ADDCB /* libpomelo2.xcconfig */,
+				7D826E6263ADA3F5851875ECC7ED690C /* libpomelo2-dummy.m */,
+				FAA8115B5A69CA123C73AD4BA671FEA9 /* libpomelo2-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/libpomelo2";
+			sourceTree = "<group>";
+		};
+		F5FC2A3F79B87716FB9222671CC7D946 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64022C63AC29BC5765CA2E99DC2D899E /* liblibpomelo2.a */,
+				4137ABF90594CEE03F40458EFD295E7C /* liblibuv.a */,
+				FBEF328640F94410C52ADD801965E70E /* libPods-libpomelo2_Example.a */,
+				E3EF8FA65B045F82E5854BB9439DF99F /* libPods-libpomelo2_Tests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE212353BA6D985F22B5EC221C5F7416 /* tr */ = {
+			isa = PBXGroup;
+			children = (
+				EF9E3F4E03DA1166F4E30BABC8FA1B87 /* dummy */,
+				A0192492261B533278B13FC8D8733F55 /* uv */,
+			);
+			path = tr;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2FFEF3B58C7B1FC93DC779D269766F30 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08901991E05AF9D77068AAA46CBF332D /* pb.h in Headers */,
+				DBCCFD402025B53B7FE782CE12B4E230 /* pc_JSON.h in Headers */,
+				9BE8563FCC00B658617057069895C879 /* pc_lib.h in Headers */,
+				AC8CC698ED601779DBBE301916E6E545 /* pc_mutex.h in Headers */,
+				C986A2BDBB6CCC07D2BAF6C105BF848C /* pc_pomelo_i.h in Headers */,
+				B562A3E1D0E4815C58F3148DDF204EC5 /* pc_trans_repo.h in Headers */,
+				8EDB3B30048C596965DD28DA125D6C2B /* pomelo.h in Headers */,
+				B9B73642F09D18AAD4C9D9F46310F904 /* pomelo_trans.h in Headers */,
+				C5A3976BED4330DC52369ECE07433CD2 /* pr_msg.h in Headers */,
+				21595F9F807A797206E4C426248E56AF /* pr_pkg.h in Headers */,
+				88CDEA74F7D9AF7CCA7296E1C5A8DADC /* queue.h in Headers */,
+				727F88D2E7D2A5F73497918FFA9F6690 /* tr_dummy.h in Headers */,
+				0157E5DBAA7223084C52E3FECC2FBD91 /* tr_uv_tcp.h in Headers */,
+				81B781FC87BB64F865EF5C6DCE24C556 /* tr_uv_tcp_aux.h in Headers */,
+				C3C26A179D9C97105448102CDBFEBF57 /* tr_uv_tcp_i.h in Headers */,
+				546F4692ED5D7F9E2D1E3BE012DB24D3 /* tr_uv_tls.h in Headers */,
+				F45E586F5B3DE3F10FF8230DCE84A866 /* tr_uv_tls_aux.h in Headers */,
+				B2D726681CABDA478F76DCFBFE53B47F /* tr_uv_tls_i.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2EE674D2C63F36950A22E3CED89DC43 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ACD4F8594087619C231AD9FD090F667 /* atomic-ops.h in Headers */,
+				7053BF8F2E1AE03E3F66AECC6E10D577 /* heap-inl.h in Headers */,
+				4F2139BC6928B64BDB907E0E2FF28B51 /* internal.h in Headers */,
+				7D6D7783951FCFB62CB2A2BB34939D33 /* linux-syscalls.h in Headers */,
+				384F23D20AEEF92712FA933BF18CAE6D /* queue.h in Headers */,
+				9B624CBD2F0BDB2F9592568C0ECF2DD0 /* spinlock.h in Headers */,
+				DD3472590EB0E0690AA928C0EC37BD38 /* tree.h in Headers */,
+				0E020AA44ECDC90FDFBFE83F53E71495 /* uv-common.h in Headers */,
+				6FDD4C875A570B64072962A9362890DE /* uv-darwin.h in Headers */,
+				6EC286CD791E50FD6B017DC58EA19AB8 /* uv-errno.h in Headers */,
+				9A4276EE3D30DF421229374E89CF3F1A /* uv-threadpool.h in Headers */,
+				DD40142952406803C8B26DE055D1387B /* uv-unix.h in Headers */,
+				C0AC7ADF806FAF6C263A370C0F73592A /* uv-version.h in Headers */,
+				C37EE3ABB210FDA886CCB1DC67C51990 /* uv.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2867F65AEF7908F6867938AE56A16E6B /* Pods-libpomelo2_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9049FC800FE4A8E28A7B6C299075CE1 /* Build configuration list for PBXNativeTarget "Pods-libpomelo2_Example" */;
+			buildPhases = (
+				DFAC9095F81019555DC59DA4E1C01522 /* Sources */,
+				DD93FC1396F4E6D535D90B456CF7168B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				746333E82289638359821E512BFCD3A6 /* PBXTargetDependency */,
+				24827FC279A9F775C5A748CE393C980C /* PBXTargetDependency */,
+			);
+			name = "Pods-libpomelo2_Example";
+			productName = "Pods-libpomelo2_Example";
+			productReference = FBEF328640F94410C52ADD801965E70E /* libPods-libpomelo2_Example.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		60B2CD79B9ED481F51AB8154A99FB7D6 /* libuv */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C467E6A7F6850047F3DEC40BF100A260 /* Build configuration list for PBXNativeTarget "libuv" */;
+			buildPhases = (
+				EC736E1574A5AFF40F1D10E88D7E38C0 /* Sources */,
+				392C96FB64B83F927AC1E0099ADA1C1F /* Frameworks */,
+				E2EE674D2C63F36950A22E3CED89DC43 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = libuv;
+			productName = libuv;
+			productReference = 4137ABF90594CEE03F40458EFD295E7C /* liblibuv.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		88D528F3619D8DF67B710910F65DF8D2 /* libpomelo2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56158DDCDC467562A031C6C14C89929F /* Build configuration list for PBXNativeTarget "libpomelo2" */;
+			buildPhases = (
+				765A788DB1486C823F3F804A1729C073 /* Sources */,
+				580AF7F96FA48D16010A44CB6E46B6CB /* Frameworks */,
+				2FFEF3B58C7B1FC93DC779D269766F30 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				477DA9A03517E22AD3A11ECDDFA75AC7 /* PBXTargetDependency */,
+			);
+			name = libpomelo2;
+			productName = libpomelo2;
+			productReference = 64022C63AC29BC5765CA2E99DC2D899E /* liblibpomelo2.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C39614714630B3B215C4FDCA6BFBA19F /* Pods-libpomelo2_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FB42BE86E7579FF3C423ECB087E9049 /* Build configuration list for PBXNativeTarget "Pods-libpomelo2_Tests" */;
+			buildPhases = (
+				A7C5488A8FF2118F0471440BC62479B2 /* Sources */,
+				7DF6A924332E91A8EB0FE7C399378FC2 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-libpomelo2_Tests";
+			productName = "Pods-libpomelo2_Tests";
+			productReference = E3EF8FA65B045F82E5854BB9439DF99F /* libPods-libpomelo2_Tests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = F5FC2A3F79B87716FB9222671CC7D946 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88D528F3619D8DF67B710910F65DF8D2 /* libpomelo2 */,
+				60B2CD79B9ED481F51AB8154A99FB7D6 /* libuv */,
+				2867F65AEF7908F6867938AE56A16E6B /* Pods-libpomelo2_Example */,
+				C39614714630B3B215C4FDCA6BFBA19F /* Pods-libpomelo2_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		765A788DB1486C823F3F804A1729C073 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2DF776D6B5868AFD93717849F646AEA /* libpomelo2-dummy.m in Sources */,
+				3A7748485084368787A80B33E2B89F38 /* pb_decode.c in Sources */,
+				C741428D525C34BC6DE444DCBC20B82F /* pb_encode.c in Sources */,
+				78306DA5CE8E95D8A8B531EE27A7AEED /* pb_i.c in Sources */,
+				34315892953853695B78ADAA6D9C2E86 /* pc_JSON.c in Sources */,
+				C15B3999041EAC24B11A88802FC9AE58 /* pc_lib.c in Sources */,
+				0A12EDD48C28AF7856767C137E55B812 /* pc_pomelo.c in Sources */,
+				7897BE925511FAF3379393FFD4F3680A /* pc_trans.c in Sources */,
+				B06FB039268008B84030C5A8F8F6F504 /* pc_trans_repo.c in Sources */,
+				78FF4C1F4A3B09EFE060821C86285EE5 /* pr_msg.c in Sources */,
+				80B470D13158963C0E872C8954D5878A /* pr_msg_json.c in Sources */,
+				57A21DBECD261959CAFE43A51BD27ACF /* pr_msg_pb.c in Sources */,
+				136CE56BAA7381EF304C6C4D770E6996 /* pr_pkg.c in Sources */,
+				0CFE1DCB1E7B8EBDD5EC0EB3E21EE79F /* tr_dummy.c in Sources */,
+				6A37B919E93B7E0E40D0D88ED4B4743A /* tr_uv_tcp.c in Sources */,
+				D3D46412419FFF2514D690827CA5628B /* tr_uv_tcp_aux.c in Sources */,
+				C6AA508743B7B878A9C5C4A1DB732C23 /* tr_uv_tcp_i.c in Sources */,
+				6301A267ACC5C509B51608CDBB0E04A2 /* tr_uv_tls.c in Sources */,
+				8DC1202558B2F318D27250B23B5F26FF /* tr_uv_tls_aux.c in Sources */,
+				A90E88658348DBF82F602A2FFD80690E /* tr_uv_tls_i.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7C5488A8FF2118F0471440BC62479B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F70416E368BFE4A9EE4607B24B5D2B27 /* Pods-libpomelo2_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFAC9095F81019555DC59DA4E1C01522 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD915F0DE398A29BA6E4C90D81E7FE29 /* Pods-libpomelo2_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC736E1574A5AFF40F1D10E88D7E38C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5B3592F8E779C8044DD82B2EFD16892 /* async.c in Sources */,
+				C509294B8E6C028E4897FB53014CDB85 /* core.c in Sources */,
+				B5DAC9337381E865FB28CEA100263884 /* darwin-proctitle.c in Sources */,
+				4992A45897F2736B2FCC0EE91122DB6A /* darwin.c in Sources */,
+				448030015B5D07F82F6E7468563834AB /* dl.c in Sources */,
+				3FA30CA9782D00ABBBA40C7ECEE19B63 /* fs-poll.c in Sources */,
+				4DD19819CB849836937AD3E1A1EA6383 /* fs.c in Sources */,
+				5DDC8298002C26C0F8DC1A1E406BD42D /* fsevents.c in Sources */,
+				26A59BE463479D9F7FB38B79BF916A0F /* getaddrinfo.c in Sources */,
+				D122EB3071A3434886D6E72C181CAE39 /* getnameinfo.c in Sources */,
+				0BE5643F1452CCC72160F34CD8BA71B7 /* inet.c in Sources */,
+				B448F3563977332621EC60AAD8AF03A5 /* kqueue.c in Sources */,
+				E9B5F4A2ECACC22F3C3F601A92665767 /* libuv-dummy.m in Sources */,
+				7511F3648B5A4B961408E1261C0CA497 /* loop-watcher.c in Sources */,
+				79AA17AEE2A4F3D09E52169E9F757F96 /* loop.c in Sources */,
+				535FC347B2C515E2F5F2663FD38AE001 /* pipe.c in Sources */,
+				8EC4610A6B9CB406344D7841F80FA1E2 /* poll.c in Sources */,
+				1212ABF876DEFB24BF852AFECA5E18C3 /* process.c in Sources */,
+				DA6F92B71E18DAC494C7063898037422 /* proctitle.c in Sources */,
+				43ECB422282286CA140D4531C5E62488 /* signal.c in Sources */,
+				08DF775CA350BC6840C4FDDC6B6921F6 /* stream.c in Sources */,
+				CBF19C974D5C559820602A6B84DB8123 /* tcp.c in Sources */,
+				81E1A8713B9F6F7F41E2A11917B683B5 /* thread.c in Sources */,
+				6E69AFE9289D6C988ED9BDE7D6624560 /* threadpool.c in Sources */,
+				618CF6701EA1A605A2F66994E1AE88A2 /* timer.c in Sources */,
+				4069A5A0CD6379AB27C5EF55158477BE /* tty.c in Sources */,
+				0B4EEE814467389F5047375E02A15E24 /* udp.c in Sources */,
+				E3BAA1E60347713688E0276C4689D2AA /* uv-common.c in Sources */,
+				1CEF7F31DD7F56F0EF5156C92B6BE02A /* version.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		24827FC279A9F775C5A748CE393C980C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = libuv;
+			target = 60B2CD79B9ED481F51AB8154A99FB7D6 /* libuv */;
+			targetProxy = 394F32E1A5C3D9F6CC60EECD1A56DA7E /* PBXContainerItemProxy */;
+		};
+		477DA9A03517E22AD3A11ECDDFA75AC7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = libuv;
+			target = 60B2CD79B9ED481F51AB8154A99FB7D6 /* libuv */;
+			targetProxy = 1FCFAE6C7B70411F0DD0D33FEF177530 /* PBXContainerItemProxy */;
+		};
+		746333E82289638359821E512BFCD3A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = libpomelo2;
+			target = 88D528F3619D8DF67B710910F65DF8D2 /* libpomelo2 */;
+			targetProxy = C086929526F38B329231D007A1CB9BFA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		086529DADABFAD5FA72B5E8B9C0500AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08510FB7783DCF6894276F87D95ADDCB /* libpomelo2.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/libpomelo2/libpomelo2-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0C17BD4E59BF6663F48084E9BB999254 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAA0A07811662BE2BD20FF50106D8063 /* libuv.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/libuv/libuv-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		1031C458298BEDF9F549FC58A454C67D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 927ED2597B2B7F5210201872C7476FEE /* Pods-libpomelo2_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		3B81AD16CB5A2E120E54C8F8862A4CB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAA0A07811662BE2BD20FF50106D8063 /* libuv.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/libuv/libuv-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		6A7987206A959C01E1141F20635309E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6F8E02D77E1794921D574004B9E974B /* Pods-libpomelo2_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		6EEF7EBBBE6FE5C636A991BE15DF46FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08510FB7783DCF6894276F87D95ADDCB /* libpomelo2.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/libpomelo2/libpomelo2-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		B5BA21DDB567E33AE7FE088B23F2237D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E45D022C13C00662F7ACE148D1F3A032 /* Pods-libpomelo2_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E94E89CE1A1F60327C068CC990C37C3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE89455FAAA059D812744DB482BE6EB7 /* Pods-libpomelo2_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */,
+				0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56158DDCDC467562A031C6C14C89929F /* Build configuration list for PBXNativeTarget "libpomelo2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				086529DADABFAD5FA72B5E8B9C0500AD /* Debug */,
+				6EEF7EBBBE6FE5C636A991BE15DF46FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FB42BE86E7579FF3C423ECB087E9049 /* Build configuration list for PBXNativeTarget "Pods-libpomelo2_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1031C458298BEDF9F549FC58A454C67D /* Debug */,
+				B5BA21DDB567E33AE7FE088B23F2237D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C467E6A7F6850047F3DEC40BF100A260 /* Build configuration list for PBXNativeTarget "libuv" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B81AD16CB5A2E120E54C8F8862A4CB4 /* Debug */,
+				0C17BD4E59BF6663F48084E9BB999254 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9049FC800FE4A8E28A7B6C299075CE1 /* Build configuration list for PBXNativeTarget "Pods-libpomelo2_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E94E89CE1A1F60327C068CC990C37C3D /* Debug */,
+				6A7987206A959C01E1141F20635309E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
