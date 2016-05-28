@@ -6,7 +6,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
-This podspec is incompatible with cocoapods "!use frameworks" flag, turn it off or you will not be able to "pod install".
+This podspec is incompatible with cocoapods "use frameworks!" flag, turn it off or you will not be able to "pod install".
 
 ## Installation
 
